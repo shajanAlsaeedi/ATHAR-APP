@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="377.0" style="-fx-background-color: #6e10;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atharapp.BookingController">
+   <children>
+      <ImageView fitHeight="481.0" fitWidth="477.0" layoutX="-62.0" layoutY="77.0" opacity="0.07">
+         <image>
+            <Image url="@IMG_4722.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="96.80000000000001" layoutY="553.0" prefHeight="34.0" prefWidth="191.0" text="   BY SHAJAN &amp; ARWA" textAlignment="CENTER" textFill="#b1b1b1" AnchorPane.leftAnchor="96.80000000000001" AnchorPane.rightAnchor="89.0">
+         <font>
+            <Font name="Bodoni MT Black" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="1.0" height="55.0" layoutY="539.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="377.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.1893203883495146">
+               <stops>
+                  <Stop color="#4f101b89" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ButtonBar layoutX="44.0" layoutY="493.0" prefHeight="40.0" prefWidth="111.0">
+         <buttons>
+            <Button mnemonicParsing="false" onAction="#cancelAction" opacity="0.81" prefHeight="0.0" prefWidth="58.0" style="-fx-background-color: #ac7777;" text="Cancel" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="clear" mnemonicParsing="false" onAction="#clearAction" opacity="0.81" prefHeight="0.0" prefWidth="58.0" style="-fx-background-color: #ac7777;" text="Clear" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="submit" mnemonicParsing="false" onAction="#submitAction" opacity="0.81" prefHeight="0.0" prefWidth="58.0" style="-fx-background-color: #ac7777;" text="Submit" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Button>
+         </buttons>
+      </ButtonBar>
+      <GridPane layoutX="44.0" layoutY="109.0" prefHeight="348.0" prefWidth="277.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="138.20001220703125" minWidth="10.0" prefWidth="138.20001220703125" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="148.5999755859375" minWidth="10.0" prefWidth="139.79998779296875" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="47.19998779296875" minHeight="10.0" prefHeight="41.599981689453124" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="39.599981689453124" minHeight="10.0" prefHeight="38.400018310546876" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="50.40001220703125" minHeight="10.0" prefHeight="41.39998168945313" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="54.400000000000006" minHeight="10.0" prefHeight="41.600012207031256" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="87.00000610351563" minHeight="10.0" prefHeight="40.000018310546864" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="89.59998779296876" minHeight="10.0" prefHeight="55.19998779296873" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="104.00001831054686" minHeight="10.0" prefHeight="91.20001220703125" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Name" textFill="#ac7777">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="name" promptText="eg; Arwa, Shajan,..." GridPane.columnIndex="1" />
+            <Label text="Phone Number" textFill="#ac7777" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Email" textFill="#ac7777" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Number of People" textFill="#ac7777" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Museum" textFill="#ac7777" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Date" textFill="#ac7777" GridPane.rowIndex="5">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label text="Time" textFill="#ac7777" GridPane.rowIndex="6">
+               <font>
+                  <Font name="Calisto MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="phone" promptText="05XXXXXXXX" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="email" promptText="aaa@aaa.com" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="poeple" promptText="1,2,...,9" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <DatePicker fx:id="date" promptText="Select Date" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Pane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <FlowPane hgap="18.0" layoutX="-5.0" layoutY="20.0" prefHeight="109.0" prefWidth="111.0" vgap="2.0">
+                     <children>
+                        <RadioButton fx:id="rad6_8" mnemonicParsing="false" text="6:00  - 8:00">
+                           <toggleGroup>
+                              <ToggleGroup fx:id="group1" />
+                           </toggleGroup>
+                        </RadioButton>
+                        <RadioButton fx:id="rad8_10" mnemonicParsing="false" prefHeight="18.0" prefWidth="113.0" text="8:00 - 10:00" toggleGroup="$group1" />
+                        <RadioButton fx:id="rad10_12" mnemonicParsing="false" text="10:00 -12:00" toggleGroup="$group1" />
+                     </children>
+                  </FlowPane>
+               </children>
+            </Pane>
+            <ComboBox fx:id="museum" prefWidth="150.0" promptText="Select Museum" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#723d4666" height="43.0" layoutX="-1.0" layoutY="43.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="246.0" />
+      <RadioButton fx:id="radam" layoutX="289.0" layoutY="393.0" mnemonicParsing="false" text="AM">
+         <toggleGroup>
+            <ToggleGroup fx:id="group2" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="pm" layoutX="289.0" layoutY="425.0" mnemonicParsing="false" text="PM" toggleGroup="$group2" />
+      <Label layoutX="31.0" layoutY="29.0" prefHeight="72.0" prefWidth="228.0" text="Book a ticket" textFill="WHITE">
+         <font>
+            <Font name="Calisto MT Bold" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

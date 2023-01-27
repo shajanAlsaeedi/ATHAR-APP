@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="201.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atharapp.FinalmessagepagController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="207.0" layoutX="-6.0" layoutY="-1.0" opacity="0.58" stroke="BLACK" strokeType="INSIDE" width="381.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.04545457977237116">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.23999999463558197" opacity="0.6472602486610413" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.23157894611358643" green="0.060038987547159195" blue="0.060038987547159195" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button cancelButton="true" layoutX="157.0" layoutY="141.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="26.0" prefWidth="54.0" style="-fx-background-color: #723d46;" text="close" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="15.0" />
+         </font></Button>
+      <Label layoutX="111.0" layoutY="170.0" prefHeight="34.0" prefWidth="146.0" text="   BY SHAJAN &amp; ARWA" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="111.0" AnchorPane.rightAnchor="117.0">
+         <font>
+            <Font name="Bodoni MT Black" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="266.0" fitWidth="273.0" layoutX="42.0" layoutY="-31.0" opacity="0.24" AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="59.0">
+         <image>
+            <Image url="@IMG_4722.PNG" />
+         </image>
+      </ImageView>
+      <Label layoutX="42.0" layoutY="73.0" text="We hope you enjoyed the trip with us" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Black" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="136.0" layoutY="91.0" text="See you soon!" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Black" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="userName" layoutX="82.0" layoutY="36.0" prefHeight="34.0" prefWidth="197.0" text="shajan Alsaeedi" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Black" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

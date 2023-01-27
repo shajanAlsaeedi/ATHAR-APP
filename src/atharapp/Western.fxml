@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atharapp.WesternController">
+   <children>
+      <Label layoutX="96.80000000000001" layoutY="553.0" prefHeight="34.0" prefWidth="191.0" text="   BY SHAJAN &amp; ARWA" textAlignment="CENTER" textFill="#b1b1b1" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="106.0">
+         <font>
+            <Font name="Bodoni MT Black" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="1.0" height="600.0" layoutX="-4.0" layoutY="-5.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="384.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.11165048543689321">
+               <stops>
+                  <Stop color="#4f101b89" />
+                  <Stop color="#ffffff83" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ImageView fitHeight="28.0" fitWidth="31.0" layoutX="26.0" layoutY="550.0" AnchorPane.leftAnchor="25.8" AnchorPane.rightAnchor="320.0">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="15.0" layoutY="549.0" mnemonicParsing="false" onAction="#homepage" opacity="0.0" prefHeight="31.0" prefWidth="62.0" text="homepag" />
+      <ImageView fitHeight="28.0" fitWidth="31.0" layoutX="320.0" layoutY="550.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="25.8">
+         <image>
+            <Image url="@Information.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="305.0" layoutY="549.0" mnemonicParsing="false" onAction="#aboutus" opacity="0.0" prefHeight="31.0" prefWidth="62.0" text="aboutus" />
+      <ImageView fitHeight="232.0" fitWidth="259.0" layoutX="2.0" layoutY="218.0">
+         <image>
+            <Image url="@2021-11-27__7_-removebg-preview.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="10.0" arcWidth="20.0" fill="#ffffffe3" height="47.0" layoutX="272.0" layoutY="369.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="68.0" />
+      <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#d9d9d9e3" height="51.0" layoutX="6.0" layoutY="408.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="358.0" />
+      <Text fill="#c90202" layoutX="299.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20 SR">
+         <font>
+            <Font name="Calisto MT" size="15.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="274.0" layoutY="377.0">
+         <image>
+            <Image url="@dollar.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="15.0" layoutY="395.0" prefHeight="72.0" prefWidth="267.0" text="Abdul Raouf Khalil" textAlignment="CENTER" textFill="#723d46">
+         <font>
+            <Font name="Brush Script MT Italic" size="28.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="10.0" arcWidth="20.0" fill="#ffffffe3" height="47.0" layoutX="274.0" layoutY="146.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="68.0" />
+      <ImageView fitHeight="243.0" fitWidth="292.0" layoutX="-10.0" layoutY="-18.0">
+         <image>
+            <Image url="@2021-11-27__6_-removebg-preview.png" />
+         </image>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="20.0" arcWidth="30.0" fill="#d9d9d9e3" height="51.0" layoutX="9.0" layoutY="181.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="3.0" width="358.0" />
+      <Label layoutX="26.0" layoutY="169.0" prefHeight="72.0" prefWidth="206.0" text="The Two Holy Mosques " textFill="#723d46">
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="258.0" layoutY="191.0">
+         <image>
+            <Image url="@location.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="18.0" fitWidth="20.0" layoutX="276.0" layoutY="153.0">
+         <image>
+            <Image url="@dollar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="27.0" layoutX="253.0" layoutY="417.0">
+         <image>
+            <Image url="@location.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="289.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Makkah">
+         <font>
+            <Font name="Calisto MT" size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="284.0" layoutY="437.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jeddah">
+         <font>
+            <Font name="Calisto MT" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#c90202" layoutX="299.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="32 SR">
+         <font>
+            <Font name="Calisto MT" size="15.0" />
+         </font>
+      </Text>
+      <Button layoutX="105.0" layoutY="515.0" mnemonicParsing="false" onAction="#bookingAction" prefHeight="30.0" prefWidth="166.0" style="-fx-background-radius: 30; -fx-background-color: #723d46;" text="BOOKING NOW" textFill="WHITE" AnchorPane.leftAnchor="106.0" AnchorPane.rightAnchor="106.0">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

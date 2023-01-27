@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="593.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atharapp.AboutuspagController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="601.0" layoutX="-6.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="384.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#723d4666" height="43.0" layoutY="44.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="358.0" />
+      <Label layoutX="31.0" layoutY="30.0" prefHeight="72.0" prefWidth="184.0" text="who is ATHAR" textFill="WHITE" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="162.0">
+         <font>
+            <Font name="Calisto MT Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="110.0" prefHeight="72.0" prefWidth="178.0" text="About us" textFill="#723d46">
+         <font>
+            <Font name="Brush Script MT Italic" size="36.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e4e4e4" height="28.0" layoutX="7.0" layoutY="10.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="31.0" />
+      <Label layoutX="96.80000000000001" layoutY="553.0" prefHeight="34.0" prefWidth="191.0" text="   BY SHAJAN &amp; ARWA" textAlignment="CENTER" textFill="#b1b1b1" AnchorPane.leftAnchor="96.0" AnchorPane.rightAnchor="96.80000000000001">
+         <font>
+            <Font name="Bodoni MT Black" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="25.0" fitWidth="18.0" layoutX="13.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="7.0" layoutY="12.0" minHeight="18.0" minWidth="31.0" mnemonicParsing="false" onAction="#backaction" opacity="0.0" prefHeight="25.0" prefWidth="31.0" text="back" textFill="TRANSPARENT">
+         <font>
+            <Font size="1.0" />
+         </font>
+         <graphic>
+            <Group />
+         </graphic>
+      </Button>
+      <TextArea id="textAthar" fx:id="text1" editable="false" layoutX="31.0" layoutY="183.0" prefHeight="102.0" prefWidth="294.0" scrollLeft="4.0" scrollTop="33.0" style="-fx-border-color: #723d46;" text="It is an application that takes you to a journey around the museums of the Kingdom of SaudiArabia in its various regions and presents the most prominent museums for each region that reflect the impact of the customs and traditions of society." wrapText="true" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="52.0">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </TextArea>
+      <ImageView fitHeight="192.0" fitWidth="195.0" layoutX="162.0" layoutY="-9.0">
+         <image>
+            <Image url="@IMG_4722.PNG" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#723d4666" height="58.0" layoutY="476.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.0" width="377.0" />
+      <ImageView fitHeight="156.0" fitWidth="170.0" layoutY="427.0">
+         <image>
+            <Image url="@fligh.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="170.0" layoutX="210.0" layoutY="444.0" opacity="0.74">
+         <image>
+            <Image url="@خريطةالمملكة.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="124.0" fitWidth="130.0" layoutX="218.0" layoutY="463.0" opacity="0.3">
+         <image>
+            <Image url="@IMG_4722.PNG" />
+         </image>
+      </ImageView>
+      <Line endX="100.0" layoutX="41.0" layoutY="162.0" opacity="0.12" startX="-100.0" />
+      <Text fill="#d18282" layoutX="9.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATHAR… a different archaeological experience" textAlignment="CENTER" wrappingWidth="358.0">
+         <font>
+            <Font name="Brush Script MT Italic" size="19.0" />
+         </font>
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Text>
+      <Line endX="165.70001220703125" layoutX="170.0" layoutY="425.0" opacity="0.12" startX="-129.5" />
+      <TextArea id="textAthar" fx:id="text11" editable="false" layoutX="31.0" layoutY="293.0" prefHeight="72.0" prefWidth="294.0" scrollLeft="4.0" scrollTop="33.0" style="-fx-border-color: #723d46;" text="Through our application, you can book a ticket for one of the museums around the Kingdom to have a unique experience in learning about different civilizations" wrapText="true">
+         <font>
+            <Font name="Calisto MT" size="13.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>
